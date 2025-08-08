@@ -6,7 +6,7 @@ const simpleGit = require("simple-git");
 const fs = require("fs");
 const path = require("path");
 
-const token = process.env.GITHUB_TOKEN;
+const token = process.env.GITHUB_TOKN;
 if (!token) {
   console.error("Set GITHUB_TOKEN env var");
   process.exit(1);
