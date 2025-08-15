@@ -62,7 +62,7 @@ async function main() {
   // push using token in url (short-lived)
   const remoteWithToken = `https://${token}@github.com/${repo.full_name}.git`;
   await git.addRemote("origin", remoteWithToken);
-  await git.branch(["-M", "main"]);
+  await git.branch, "main";
   await git.push("origin", "main", {"-u": null});
 
   console.log("Pushed to", repo.html_url);
