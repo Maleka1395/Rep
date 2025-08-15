@@ -68,3 +68,8 @@ async function main() {
   console.log("Pushed to", repo.html_url);
 }
 main();
+چ
+const readmeContent = `# ${name}
+
+This repository was automatically created using a Node.js script.`;
+fs.writeFileSync(path.join(repoPath, "README.md"), readmeContent);
