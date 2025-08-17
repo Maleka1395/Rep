@@ -77,5 +77,5 @@ const readmeContent = `# ${name}
 
 Auto-created repository using Node.js.`;
 fs.writeFileSync(path.join(repoPath, "README.md"), readmeContent);
-This repository was quickly set up using a Node.js script.
+This repository was quickly set up using a Node.js
 
