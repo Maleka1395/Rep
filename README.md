@@ -79,5 +79,5 @@ Auto-created repository using Node.js.`;
 fs.writeFileSync(path.join(repoPath, "README.md"), readmeContent);
 This repository was quickly set up using a Node.js
 
-A simple repo created with Node.js.
+A simple repo created with Node.
 
