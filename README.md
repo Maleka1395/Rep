@@ -93,4 +93,6 @@ Simple Node.js created repository
 
 Repo created by automation.
 
+Created in seconds with Node.js.
+
 
