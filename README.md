@@ -87,6 +87,8 @@ A simple repo created with .
 
 Auto-generated repo via Node.js script.
 
+Fast repo setup via Node.js.
+
 
 Simple Node.js created repository
 
