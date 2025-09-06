@@ -1,4 +1,4 @@
-# Rep
+r# Rep
 #!/usr/bin/env node
 // node create-repo.js repo-name owner [--private]
 const { Octokit } = require("@octokit/rest");
@@ -97,6 +97,6 @@ Fast repo setup via Node.js.
 
 Repo created by automation.
 
-Created in seconds with Node.js.
+Created in seconds with Node.
 
 
