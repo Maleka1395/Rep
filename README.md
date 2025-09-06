@@ -90,6 +90,8 @@ Auto-generated repo via Node.js script.
 
 Simple Node.js created repository
 
+Fast repo setup via Node.js.
+
 
 Repo created by automation.
 
