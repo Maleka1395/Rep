@@ -119,7 +119,7 @@ The repository was created by running a Node.js script that:
 
 Next Steps
 - Add your project files inside the repository.
-- Extend the documentation as your project grows.
+- Extend the documentation as your project
 - 
 - Use this workflow to bootstrap future projects faster.
   
