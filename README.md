@@ -148,5 +148,29 @@ It not only initializes new repositories quickly but also provides a structured 
 2. Run the script with the repository name, optional owner, and `--private` flag if needed.
 3. The script will:
 
+## Extended Repository Details
+
+This repository is the **central hub** for the Node.js automation script that streamlines GitHub repository creation.  
+It not only initializes new repositories quickly but also provides a structured foundation for all future projects.
+
+### Repository Structure
+- `create-repo.js` – Main script that interacts with GitHub API and performs local Git initialization.
+- `README.md` – Starter documentation automatically generated for new repositories.
+- `.gitignore` – Basic Node.js ignore patterns for dependencies and environment files.
+- `src/` – Suggested folder for source code of new projects.
+- `tests/` – Folder for adding automated tests.
+- `docs/` – Optional folder for extended documentation or guides.
+
+### Advanced Features
+- Supports creating repositories under personal accounts or organizations.
+- Handles both public and private repositories with a simple `--private` flag.
+- Initializes local Git repository, adds remote, and pushes the initial commit automatically.
+- Can be extended to include custom templates, licenses, or additional boilerplate files.
+
+### Workflow Overview
+1. Set your GitHub personal access token in the environment variable `GITHUB_TOKEN`.
+2. Run the script with the repository name, optional owner, and `--private` flag if needed:
+   ```bash
+   node create-repo.js <repo-name> [owner] [--private]
 
 
