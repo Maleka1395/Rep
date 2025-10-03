@@ -190,10 +190,6 @@ This script connects to the GitHub API, generates a new repository, and sets up 
 
 ---
 
-## Requirements
-- [Node.js](https://nodejs.org/) (v14 or later recommended)  
-- [Git](https://git-scm.com/) installed locally  
-- A GitHub personal access token with repo permissions  
 
 ---
 
