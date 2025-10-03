@@ -172,5 +172,36 @@ It not only initializes new repositories quickly but also provides a structured 
 2. Run the script with the repository name, optional owner, and `--private` flag if needed:
    ```bash
    node create-repo.js <repo-name> [owner] [--private]
+# GitHub Repo Creator (Node.js)
+
+A Node.js automation tool for creating and initializing GitHub repositories directly from the command line.  
+This script connects to the GitHub API, generates a new repository, and sets up a ready-to-use local project folder.
+
+---
+
+## Features
+- Create new repositories under your account or organization.
+- Support for both **public** and **private** repositories (`--private` flag).
+- Automatic local Git initialization.
+- Generates starter files:
+  - `README.md`
+  - `.gitignore` (with Node.js defaults)
+- Makes the first commit and pushes it to GitHub.
+
+---
+
+## Requirements
+- [Node.js](https://nodejs.org/) (v14 or later recommended)  
+- [Git](https://git-scm.com/) installed locally  
+- A GitHub personal access token with repo permissions  
+
+---
+
+## Installation
+Clone this repository and install dependencies:
+```bash
+git clone https://github.com/<your-username>/repo-creator.git
+cd repo-creator
+npm install
 
 
