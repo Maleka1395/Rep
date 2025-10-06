@@ -198,6 +198,41 @@ Clone this repository and install dependencies:
 ```bash
 git clone https://github.com/<your-username>/repo-creator.git
 cd repo-creator
-npm install
+npm instal
+## Related Repositories
+
+This main repository is part of a growing collection of tools designed to automate and streamline GitHub project management.  
+Below are additional repositories that complement and extend the functionality of this main Node.js automation script:
+
+### 🔹 Repo: `repo-template-generator`
+A Node.js tool for creating custom project templates and scaffolds.  
+**Purpose:** Automatically generates starter templates for different types of projects (Node.js, Python, Frontend, etc.).  
+**Link:** [repo-template-generator](https://github.com/<your-username>/repo-template-generator)
+
+---
+
+### 🔹 Repo: `repo-setup-cli`
+A lightweight command-line interface for managing GitHub repositories.  
+**Purpose:** Offers CLI commands to initialize, clone, update, and configure repositories quickly.  
+**Link:** [repo-setup-cli](https://github.com/<your-username>/repo-setup-cli)
+
+---
+
+### 🔹 Repo: `repo-auto-docs`
+An automation tool that creates and updates documentation for your repositories.  
+**Purpose:** Scans repository files and generates a clean, consistent README structure automatically.  
+**Link:** [repo-auto-docs](https://github.com/<your-username>/repo-auto-docs)
+
+---
+
+### 🔹 Repo: `repo-manager-dashboard`
+A web-based dashboard built with React to visualize and manage your repositories in one place.  
+**Purpose:** Provides insights, analytics, and quick access to GitHub projects using the GitHub API.  
+**Link:** [repo-manager-dashboard](https://github.com/<your-username>/repo-manager-dashboard)
+
+---
+
+These repositories are designed to work together — combining automation, customization, and visibility —  
+to create a complete GitHub workflow ecosystem.
 
 
