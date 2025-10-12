@@ -234,5 +234,40 @@ A web-based dashboard built with React to visualize and manage your repositories
 
 These repositories are designed to work together — combining automation, customization, and visibility —  
 to create a complete GitHub workflow ecosystem.
+# Repo Template Generator
+
+A Node.js-based tool that automates the creation of project templates.  
+It allows developers to quickly scaffold new repositories with predefined structures, files, and configurations.
+
+---
+
+## 🚀 Overview
+The **Repo Template Generator** complements the main GitHub automation script by enabling users to generate ready-to-use project templates before pushing them to GitHub.  
+This helps developers save time and maintain consistent standards across multiple repositories.
+
+---
+
+## ✨ Features
+- Generate new project templates for **Node.js**, **Python**, or **frontend** frameworks.
+- Include default files such as:
+  - `README.md`
+  - `.gitignore`
+  - `package.json` (for Node.js projects)
+  - `src/` and `tests/` folders
+- Customizable project structure via configuration file.
+- Optional integration with your main repo creator script for seamless setup.
+
+---
+
+## 🧠 How It Works
+1. Choose or create a template configuration.
+2. Run the generator to scaffold your project.
+3. Optionally, connect it with the **GitHub Repo Creator** to instantly create and push the project.
+
+---
+
+## 🛠️ Usage
+```bash
+npx repo-template-generator <template-name> [--path <destination-folder>]
 
 
