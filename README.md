@@ -266,8 +266,5 @@ This helps developers save time and maintain consistent standards across multipl
 
 ---
 
-## 🛠️ Usage
-```bash
-npx repo-template-generator <template-name> [--path <destination-folder>]
 
 
