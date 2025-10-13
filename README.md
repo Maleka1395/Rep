@@ -257,14 +257,6 @@ This helps developers save time and maintain consistent standards across multipl
 - Customizable project structure via configuration file.
 - Optional integration with your main repo creator script for seamless setup.
 
----
-
-🧠 How It Works
-1. Choose or create a template configuration.
-2. Run the generator to scaffold your project.
-3. Optionally, connect it with the **GitHub Repo Creator** to instantly create and push the project.
-
----
 
 
 
