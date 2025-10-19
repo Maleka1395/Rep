@@ -247,16 +247,5 @@ This helps developers save time and maintain consistent standards across multipl
 
 ---
 
-## ✨ Features
-- Generate new project templates for **Node.js**, **Python**, or **frontend** frameworks.
-- Include default files such as:
-  - `README.md`
-  - `.gitignore`
-  - `package.json` (for Node.js projects)
-  - `src/` and `tests/` folders
-- Customizable project structure via configuration file.
-- Optional integration with your main repo creator script for seamless setup.
-
-
-
+#
 
