@@ -278,9 +278,5 @@ With just one command, it analyzes your codebase, detects key files, and produce
 3. Generates or updates a `README.md` and other documentation files.  
 4. Can push updates automatically via **Repo Setup CLI**.
 
----
-
-## 🛠️ Usage
-```bash
-npx repo-auto-docs [options]
+--
 
