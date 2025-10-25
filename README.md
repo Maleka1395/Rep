@@ -245,7 +245,42 @@ It allows developers to quickly scaffold new repositories with predefined struct
 The **Repo Template Generator** complements the main GitHub automation script by enabling users to generate ready-to-use project templates before pushing them to GitHub.  
 This helps developers save time and maintain consistent standards across multiple repositories.
 
+# Repo Auto Docs
+
+An automated documentation generator for GitHub repositories.  
+This tool scans project files and creates clean, standardized README and documentation files automatically — saving developers valuable time.
+
 ---
 
-#
+## 🚀 Overview
+**Repo Auto Docs** works alongside your other automation tools — such as **Repo Creator**, **Template Generator**, and **Setup CLI** —  
+to automatically generate or update project documentation based on repository content and metadata.
+
+With just one command, it analyzes your codebase, detects key files, and produces clear, readable documentation in Markdown format.
+
+---
+
+## ✨ Features
+- Automatically generate `README.md` and `docs/` folder documentation.
+- Extracts information from:
+  - `package.json` (Node.js projects)
+  - Project metadata and folder structure
+  - Code comments and headers
+- Generates changelogs and feature lists dynamically.
+- Keeps existing README files up to date.
+- Supports multiple languages and frameworks.
+
+---
+
+## 🧠 How It Works
+1. Scans your repository for project metadata and key files.  
+2. Extracts structure, dependencies, and purpose.  
+3. Generates or updates a `README.md` and other documentation files.  
+4. Can push updates automatically via **Repo Setup CLI**.
+
+---
+
+## 🛠️ Usage
+```bash
+npx repo-auto-docs [options]
 
