@@ -272,11 +272,4 @@ With just one command, it analyzes your codebase, detects key files, and produce
 
 ---
 
-## 🧠 How It Works
-1. Scans your repository for project metadata and key files.  
-2. Extracts structure, dependencies, and purpose.  
-3. Generates or updates a `README.md` and other documentation files.  
-4. Can push updates automatically via **Repo Setup CLI**.
-
---
 
