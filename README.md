@@ -268,8 +268,6 @@ With just one command, it analyzes your codebase, detects key files, and produce
   - Code comments and headers
 - Generates changelogs and feature lists dynamically.
 - Keeps existing README files up to date.
-- Supports multiple languages and frameworks.
-
----
+- Supports multiple languages and frameworks
 
 
