@@ -260,7 +260,7 @@ With just one command, it analyzes your codebase, detects key files, and produce
 
 ---
 
-## ✨ Features
+##Features
 - Automatically generate `README.md` and `docs/` folder documentation.
 - Extracts information from:
   - `package.json` (Node.js projects)
