@@ -269,5 +269,20 @@ With just one command, it analyzes your codebase, detects key files, and produce
 - Generates changelogs and feature lists dynamically.
 - Keeps existing README files up to date.
 - Supports multiple languages and frameworks
+## 🧩 Why Repo Auto Docs Matters
+
+Maintaining consistent and high-quality documentation across multiple repositories is often time-consuming and error-prone.  
+**Repo Auto Docs** solves this problem by providing a fully automated system that keeps your documentation clean, readable, and always up-to-date.
+
+By integrating with the other tools in the GitHub Automation Toolkit, this repository ensures that every new project you create doesn't just start with clean code — but also with complete, organized, and professional documentation.
+
+---
+
+Below is a recommended workflow that demonstrates how Repo Auto Docs fits into your automation system:
+
+1. **Create Repository**
+   ```bash
+   node create-repo.js my-app
+
 
 
