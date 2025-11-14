@@ -282,7 +282,7 @@ Below is a recommended workflow that demonstrates how Repo Auto Docs fits into y
 
 1. **Create Repository**
    ```bash
-   node create-repo.js my-app
+   
 
 
 
