@@ -278,11 +278,3 @@ By integrating with the other tools in the GitHub Automation Toolkit, this repos
 
 ---
 
-Below is a recommended workflow that demonstrates how Repo Auto Docs fits into your automation system:
-
-1. **Create Repository**
-   
-   
-
-
-
