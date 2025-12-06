@@ -196,7 +196,7 @@ This script connects to the GitHub API, generates a new repository, and sets up 
 ## Installation
 Clone this repository and install dependencies:
 ```bash
-git clone https://github.com/<your-username>/repo-creator.git
+git clone https://github.com/<your-username>/repo-creator.
 cd repo-creator
 npm instal
 ## Related Repositories
