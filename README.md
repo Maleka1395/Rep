@@ -188,10 +188,7 @@ This script connects to the GitHub API, generates a new repository, and sets up 
   - `.gitignore` (with Node.js defaults)
 - Makes the first commit and pushes it to GitHub.
 
----
 
-
----
 
 ## Installation
 Clone this repository and install dependencies:
