@@ -273,5 +273,17 @@ Maintaining consistent and high-quality documentation across multiple repositori
 
 By integrating with the other tools in the GitHub Automation Toolkit, this repository ensures that every new project you create doesn't just start with clean code — but also with complete, organized, and professional documentation.
 
+---# Repo Insights Monitor
+
+A monitoring and analytics tool for GitHub repositories.  
+This project provides visibility into repository activity, health, and automation status across your GitHub ecosystem.
+
 ---
+
+## 🚀 Overview
+**Repo Insights Monitor** is designed to work alongside the GitHub Automation Toolkit.  
+It collects and displays useful insights about repositories created and managed by your automation scripts.
+
+The goal is to give developers and teams a clear overview of repos
+
 
