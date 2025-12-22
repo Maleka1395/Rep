@@ -285,5 +285,41 @@ This project provides visibility into repository activity, health, and automatio
 It collects and displays useful insights about repositories created and managed by your automation scripts.
 
 The goal is to give developers and teams a clear overview of repos
+# Repo Standards Validator
+
+A validation and quality enforcement tool for GitHub repositories created through automation.  
+This repository ensures that every generated project follows predefined standards and best practices.
+
+---
+
+## 🚀 Overview
+**Repo Standards Validator** is a companion tool to the main Node.js repository creation script.  
+While the core script focuses on creating repositories quickly, this tool ensures they are created **correctly and consistently**.
+
+It validates structure, configuration, and documentation across repositories.
+
+---
+
+## ✨ Key Features
+- Validate required files (README.md, .gitignore, LICENSE).
+- Ensure naming and structure consistency.
+- Check documentation completeness and formatting.
+- Verify branch configuration and repository settings.
+- Detect deviations from predefined standards.
+- Generate validation reports in Markdown or JSON.
+
+---
+
+## 🧠 How It Works
+1. Connects to GitHub using the API.
+2. Scans repositories created by automation.
+3. Applies a configurable rule set.
+4. Reports compliance status and suggestions.
+
+---
+
+## 🛠️ Usage
+```bash
+npx repo-standards-validator check
 
 
