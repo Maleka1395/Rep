@@ -322,4 +322,40 @@ It validates structure, configuration, and documentation across repositories.
 ```bash
 npx repo-standards-validator check
 
+# Repo Policy Enforcer
+
+An automated policy enforcement tool for GitHub repositories.  
+This repository ensures that organizational rules and governance policies are consistently applied across all projects.
+
+---
+
+## 🚀 Overview
+**Repo Policy Enforcer** builds on top of the validation layer by actively enforcing repository policies rather than just reporting them.
+
+While Repo Standards Validator checks compliance, this tool takes action to ensure repositories remain compliant over time.
+
+---
+
+## ✨ Key Features
+- Enforce branch protection rules.
+- Require pull request reviews.
+- Ensure required status checks are enabled.
+- Enforce repository visibility policies (public/private).
+- Lock down default branches.
+- Apply policies automatically to new repositories.
+
+---
+
+## 🧠 How It Works
+1. Connects to GitHub via the API.
+2. Loads predefined policy rules.
+3. Applies policies to target repositories.
+4. Continuously re-checks compliance on updates.
+5. Reports enforcement actions and results.
+
+---
+
+## 🛠️ Usage
+```bash
+npx repo-policy-enforcer apply
 
