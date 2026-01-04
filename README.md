@@ -346,16 +346,4 @@ While Repo Standards Validator checks compliance, this tool takes action to ensu
 
 ---
 
-## 🧠 How It Works
-1. Connects to GitHub via the API.
-2. Loads predefined policy rules.
-3. Applies policies to target repositories.
-4. Continuously re-checks compliance on updates.
-5. Reports enforcement actions and results.
-
----
-
-## 🛠️ Usage
-```bash
-npx repo-policy-enforcer apply
 
